@@ -22,6 +22,5 @@ namespace NuclearPizza {
 
             return resultOfShutdownAttempt;
         }
-
     }
 }

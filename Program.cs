@@ -12,6 +12,14 @@ using System.Threading.Tasks;
 namespace NuclearPizza {
     class Program {
         static void Main(string[] args) {
+            NuclearPizza myPizza = new NuclearPizza();
+            myPizza.Kw = 1000;                      // It's a 1000 kilowatt pizza. That seems like a lot, but who knows?
+            Console.WriteLine("Attempting to perform an emergency shut down on the " + myPizza.Kw + " kilowatt Pizza...");
+            if (myPizza.EmergencyShutdown() == true) {
+                Console.WriteLine("Shutdown succeeded");
+            } else {
+                Console.WriteLine("Shutdown failed");
+            }
         }
     }
 }
