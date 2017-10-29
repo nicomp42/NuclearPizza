@@ -10,8 +10,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace NuclearPizza {
-    class Program {
-        static void Main(string[] args) {
-        }
+    interface NuclearPowerPlant {
+        int Kw { get; set; }
+        bool EmergencyShutdown();
     }
 }

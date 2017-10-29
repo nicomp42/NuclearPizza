@@ -1,5 +1,5 @@
 ﻿/***************************************************
- * Demonstrate an Interface
+ * Demonstrate an Interface 
  * Bill Nicholson
  * nicholdw@ucmail.uc.edu
  * *************************************************/
@@ -10,8 +10,10 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace NuclearPizza {
-    class Program {
-        static void Main(string[] args) {
+    class Pizza {
+        public int size { get; set; }
+        public void Bake() {
+            Console.WriteLine("Your pizza is baking");
         }
     }
 }
