@@ -2,6 +2,7 @@
  * Demonstrate an Interface 
  * Bill Nicholson
  * nicholdw@ucmail.uc.edu
+ * Modified in class 10/31/2017 by nicholson
  * *************************************************/
 using System;
 using System.Collections.Generic;
